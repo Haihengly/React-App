@@ -28,7 +28,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="w-full bg-[#98a3b6]">
+      <section className="w-full bg-sky-300">
         <div className="container mx-auto px-8 py-12 flex flex-col items-center">
           {/* Replace with your own image */}
           <img
