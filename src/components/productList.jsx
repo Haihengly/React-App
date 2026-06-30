@@ -1,6 +1,6 @@
 ﻿import { useEffect, useState } from "react";
 import ProductCard from "./productCard";
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api/laptops"; // Public API
+const API_URL = window.ENV?.API_URL || "http://hengly-api-dev.mpwt.gov.kh:32510/api/laptops"; // Public API
 // const API_URL = "http://backend-service.default.svc.cluster.local"; // Public API
 
 export default function ProductList() {
